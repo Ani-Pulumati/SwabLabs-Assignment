@@ -1,0 +1,101 @@
+Functionality  :  Login feature
+
+TestCase1 : Verify if a user will be able to login with a valid username and valid password.
+TestCase2 : Verify if a user cannot login with a valid username and an invalid password.
+TestCase3 : Verify if a user cannot login with a invalid username and an valid password.
+TestCase4 : Verify if a user cannot login with a invalid username and an invalid password.
+TestCase5 : Verify the login page for both, when the field is blank and Submit button is clicked.
+TestCase6 : Verify the message displayed  when special characters are entered in the username field
+TestCase7 :  Verify if the data in password field is either visible as asterisk or bullet signs.
+TestCase8 : Verify login functionality on different browsers(Chrome,IE and FF)
+TestCase9 : Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.
+TestCase10 : Verify if a user should be able to login with the same credentials in different browsers at the same time.
+TestCase11 : Verify the timeout functionality of the login session.
+TestCase12 : Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+TestCase13 : Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+TestCase14 : Verify the messages for invalid login.
+TestCase15 : Verify if the font, text color, and color coding of the Login page is as per the standard.
+TestCase16 : Verify if a user cannot enter the characters more than the specified range in each field (Username and Password).
+Testcase17 : Verify if a user cannot enter the characters more than the specified range in each field (Username and Password).
+TestCase18: Verify that the user is able to navigate or access the different controls by pressing the ‘Tab’ key on the keyboard.
+TestCase19 : Check if the password can be copy-pasted or not.
+TestCase20 : Verify that closing the browser should not log-out an authenticated user. Launching the application should lead the user to login state only.
+TestCase21 : Verify that there is a limit on the total number of unsuccessful login attempts. So that a user cannot use a brute-force mechanism to try all possible combinations of username-password.
+TestCase22 : Verify that once logged in, clicking the back button doesn’t logout the user.
+TestCase23 : Verify if SQL Injection attacks work on the login page. The application should not be vulnerable to SQL injection attacks.
+
+Details of TestCases.
+
+TestCase1 : Verify if a user will be able to login with a valid username and valid password.
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Input a valid username
+Input a valid password
+Click on Login button
+
+Expected Data:
+User logs into application.
+
+TestCase2 : Verify if a user cannot login with a valid username and an invalid password.
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Input a valid username
+Input a invalid password
+Click on Login button
+
+Expected Data:
+Error message is displayed for the invalid password and the user is not allowed to log in to application
+
+TestCase3 : Verify if a user cannot login with a invalid username and an valid password.
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Input a invalid username
+Input a valid password
+Click on Login button
+
+Expected Data:
+Error message is displayed for the invalid username and the user is not allowed to log in to application
+
+TestCase4 : Verify if a user cannot login with a invalid username and an invalid password.
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Input a invalid username
+Input a invalid password
+Click on Login button
+
+Expected Data:
+Error message is displayed for the invalid username and invalid password and the user is not allowed to log in to application
+
+TestCase5 : Verify the login page for both, when the field is blank and Submit button is clicked.
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Do not input the text in the username field
+Do not input the text in the password field
+Click on Login button
+
+Expected Data:
+Error message is displayed for the blank input fileds for both username and password  and the user is not allowed to log in to application
+
+TestCase6 : Verify the message displayed  when special characters are entered in the username field
+
+Input Data:
+Login to website - "https://www.saucedemo.com/"
+Input a valid username with special characters in it.(for eg John_345$%#)
+Input a valid password
+Click on Login button
+
+Expected Data:
+Error message is displayed for the special characters entered in the username field and the user is not allowed to log in to application
+
+
+
+
+
+
+
+
